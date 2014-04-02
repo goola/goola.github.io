@@ -1,0 +1,104 @@
+﻿
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="utf-8">
+  <title>2048Jx角色版 - 5*5 Version</title>
+
+  <link href="style/main.css" rel="stylesheet" type="text/css">
+  <link rel="shortcut icon" href="favicon.ico">
+  <link rel="apple-touch-icon" href="meta/apple-touch-icon.png">
+  <meta name="apple-mobile-web-app-capable" content="yes">
+
+  <meta name="HandheldFriendly" content="True">
+  <meta name="MobileOptimized" content="320">
+  <meta name="viewport" content="width=device-width, target-densitydpi=160dpi, initial-scale=1.0, maximum-scale=1, user-scalable=no, minimal-ui">
+
+  <meta property="og:title" content="2048 game"/>
+  <meta property="og:site_name" content="2048 game"/>
+</head>
+<body>
+
+  <div class="container">
+    <div class="heading">
+      <h1 class="title">尋找誰誰</h1>
+      <div class="scores-container">
+        <div class="score-container">0</div>
+        <div class="best-container">0</div>
+      </div>
+    </div>
+	<p class="game-intro">合并内容相同的色块，看看你最后能找到谁</p>
+    <div class="game-container">
+      <div class="game-message">
+        <p></p>
+        <div class="lower">
+          <a class="retry-button">Try again</a>
+          <div class="score-sharing"></div>
+        </div>
+      </div>
+
+      <div class="grid-container">
+       <div class="grid-row">
+          <div class="grid-cell"></div>
+          <div class="grid-cell"></div>
+          <div class="grid-cell"></div>
+          <div class="grid-cell"></div>
+          <div class="grid-cell"></div>
+        </div>
+        <div class="grid-row">
+          <div class="grid-cell"></div>
+          <div class="grid-cell"></div>
+          <div class="grid-cell"></div>
+          <div class="grid-cell"></div>
+          <div class="grid-cell"></div>
+        </div>
+        <div class="grid-row">
+          <div class="grid-cell"></div>
+          <div class="grid-cell"></div>
+          <div class="grid-cell"></div>
+          <div class="grid-cell"></div>
+          <div class="grid-cell"></div>
+        </div>
+        <div class="grid-row">
+          <div class="grid-cell"></div>
+          <div class="grid-cell"></div>
+          <div class="grid-cell"></div>
+          <div class="grid-cell"></div>
+          <div class="grid-cell"></div>
+        </div>
+        <div class="grid-row">
+          <div class="grid-cell"></div>
+          <div class="grid-cell"></div>
+          <div class="grid-cell"></div>
+          <div class="grid-cell"></div>
+          <div class="grid-cell"></div>
+        </div>
+      </div>
+
+      <div class="tile-container">
+
+      </div>
+    </div>
+    <p class="game-explanation">
+      遊戲指南: 使用 <strong>↑ ← ↓ → 箭頭</strong> 移動色塊。當兩個內容一樣的色塊撞到一起時，它們就會合體成為一個更高級的色塊。
+    </p>
+    <hr>
+       <p>
+		   <a href="http://weibo.com/jessicahsuan" target="_blank">宣萱新浪微博</a><br>
+		   <a href="http://www.jessicahsuan.cn/" target="_blank">§惟萱論§WISH·宣萱Fans論壇</a><br>
+		   <a href="http://tieba.baidu.com/f?ie=utf-8&kw=%E5%AE%A3%E8%90%B1"  target="_blank">宣萱百度贴吧</a><br>
+	   </p>
+    <hr>
+	<br>by <a href="http://weibo.com/wishjessicahsuan" target="_blank">WISH惟萱論</a>
+  </div>
+
+  <script src="js/animframe_polyfill.js"></script>
+  <script src="js/keyboard_input_manager.js"></script>
+  <script src="js/html_actuator.js"></script>
+  <script src="js/grid.js"></script>
+  <script src="js/tile.js"></script>
+  <script src="js/local_score_manager.js"></script>
+  <script src="js/game_manager.js"></script>
+  <script src="js/application.js"></script>
+</body>
+</html>
