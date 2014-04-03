@@ -169,7 +169,7 @@ HTMLActuator.prototype.message = function (won) {
   
   var text3 = function (m) { var r = 0; while (m > 1) r++, m >>= 1; return r; }
   var type    = won ? "game-won" : "game-over";
-  var message = won ? "宣萱对你说：你是最棒的！" : mytxt[text3(maxscore)-3];
+  var message = won ? "宣萱对你说：你是最棒的！" : mytxt[text3(maxscore)-1];
 
   if (typeof ga !== "undefined") {
     ga("send", "event", "game", "end", type, this.score);
