@@ -54,23 +54,23 @@ HTMLActuator.prototype.clearContainer = function (container) {
 HTMLActuator.prototype.addTile = function (tile) {
   var text=new Array(18);
   text[0] = " ";
-  text[1] = "毛芷晴";
-  text[2] = "Wing";
+  text[1] = "贺千惠";
+  text[2] = "毛芷晴";
   text[3] = "洪丝丝";
   text[4] = "程若晖";
-  text[5] = "张美真";
-  text[6] = "李青云";
-  text[7] = "张雪凝";
-  text[8] = "邵芳芳";
-  text[9] = "马馥芳";
-  text[10] = "华清瑜";
-  text[11] = "燕红叶";
-  text[12] = "高希敏";
+  text[5] = "张雪凝";
+  text[6] = "邵芳芳";
+  text[7] = "文颖朗";
+  text[8] = "乌廷芳";
+  text[9] = "张美真";
+  text[10] = "程天蓝";
+  text[11] = "高希敏";
+  text[12] = "华清瑜";
   text[13] = "江玉麟";
-  text[14] = "乌廷芳";
-  text[15] = "华忆莲";
-  text[16] = "程天蓝";
-  text[17] = "武俏君";
+  text[14] = "樊梨花";
+  text[15] = "燕红叶";
+  text[16] = "武俏君";
+  text[17] = "庄卓嬅";
   
   var self = this;
   var text2 = function (n) { var r = 0; while (n > 1) r++, n >>= 1; return r; }
@@ -153,24 +153,24 @@ HTMLActuator.prototype.updateBestScore = function (bestScore) {
 HTMLActuator.prototype.message = function (won) {
   var mytxt=new Array(18);
   
-  mytxt[0]="连毛芷晴都不想见到你T.T";
-  mytxt[1]="只爱阳光sunshine的硕仔( ^_^ )/~~拜拜！";
+  mytxt[0]="我就不信有人能死在这里！";
+  mytxt[1]="这一步也不可能有人死！";
   mytxt[2]="洪丝丝不给你巧克力不帮你牵红线！";
   mytxt[3]="程若晖在帮别人叠心心哦！~\(≧▽≦)/~";
-  mytxt[4]="张美真爱钱钱不爱你！~~~~(>_<)~~~~ ";
-  mytxt[5]="烂赌婆独自去赌坊不带你玩！";
-  mytxt[6]="no zuo no die";
-  mytxt[7]="邵芳芳的美腿儿离你越来越远╭(╯^╰)╮";
-  mytxt[8]="乖乖的过来让大少奶奶扇耳光吧";
-  mytxt[9]="快来救华清瑜呀~又被危永标欺负了";
-  mytxt[10]="永远只有一个燕红叶~";
-  mytxt[11]="老婆大人判你重新开始";
+  mytxt[4]="no zuo no die";
+  mytxt[5]="芳芳的美腿儿离你越来越远╭(╯^╰)╮";
+  mytxt[6]="wing";
+  mytxt[7]="乌廷芳";
+  mytxt[8]="张美真爱钱钱不爱你！~~~~(>_<)~~~~ ";
+  mytxt[9]="成！天！懒！";
+  mytxt[10]="老婆大人判你重新开始";
+  mytxt[11]="快来救华清瑜呀~又被危永标欺负了";
   mytxt[12]="你忍心看着江玉麟女儿身被发现而不去救她？";
-  mytxt[13]="我和琴清一起掉河里你竟然不救我~game over~";
-  mytxt[14]="~~~告诉忆莲远离爷爷~~~";
-  mytxt[15]="程天蓝说：漂亮就行，不漂亮的都重新开始~";
-  mytxt[16]="帮俏君淹shi芊芊吧，徐飞永远只爱俏君 = =！";
-  mytxt[17]="看不见宣萱的太阳花了 = =";
+  mytxt[13]="丢颗仙豆，力量加满fighting~";
+  mytxt[14]="从来就只有一个燕红叶！";
+  mytxt[15]="我希望你是永远拥有我家钥匙的吕楞嘤嘤嘤";
+  mytxt[16]="玩到这一步了还不截个图发微博吗？";
+  mytxt[17]="嘿，你把游戏打爆了...";
  
   
   var text3 = function (m) { var r = 0; while (m > 1) r++, m >>= 1; return r; }
